@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/register.css">
+    <!--script src=".././scripts/ajax.js"></script-->
+    <script src="js/register.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="reg">
+            <h2>Register</h2>
+            <div class="box">
+                <div class="form-group">
+                    <label for="username">账号</label>
+                    <input type="text" id="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">密码</label>
+                    <input type="password" id="password">
+                </div>
+				<div class="form-group">
+				    <label for="email">邮箱</label>
+				    <input type="text" id="email">
+				</div>
+				<div class="form-group">
+				    <label for="telephone">电话</label>
+				    <input type="text" id="telephone">
+				</div>
+				<div class="form-group">
+				    <label for="address">地址</label>
+				    <input type="text" id="address">
+				</div>
+				<div class="sexDiv">
+				    <label for="sex">性别</label>
+				    <input name="sex" value="boy" type="radio">男
+					<input name="sex" value="gril" type="radio">女
+				</div>
+				<div class="form-group">
+				    <label for="type">用户类型</label>
+				    <select name="type" id="userType">
+				        <option value="0">普通类型</option>
+				        <option value="1">VIP类型</option>
+				    </select>
+				</div>
+				
+				
+				<div class="form-group">
+				    <label for="school">学校</label>
+				    <input type="text" id="school">
+				</div>
+				<div class="form-group">
+				    <label for="program">专业</label>
+				    <input type="text" id="program">
+				</div>
+                <!--div id="alert">测试文字</div-->
+                <button id="btn">注册</button>
+                <a href="./login.html" id="register">马上登录</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
